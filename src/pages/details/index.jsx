@@ -25,7 +25,7 @@ export default function Details() {
     }
 
     getRecipeDetails();
-  }, []);
+  }, [id, setRecipeDetailsData]);
 
   console.log(recipeDetailsData, "recipeDetailsData");
 
