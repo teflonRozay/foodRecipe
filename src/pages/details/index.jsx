@@ -36,6 +36,7 @@ export default function Details() {
           <img
             src={recipeDetailsData?.recipe?.image_url}
             className="w-full h-full object-cover block group-hover:scale-105 duration-300"
+            alt="recipe"  
           />
         </div>
       </div>
